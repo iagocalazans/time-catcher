@@ -1,3 +1,3 @@
 import timeCatcher from './lib/core'
 
-exports.timeCatcher = timeCatcher
+export default timeCatcher
