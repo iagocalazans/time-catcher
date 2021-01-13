@@ -2,9 +2,7 @@ import { RequestHandler } from 'express'
 import chalk from 'chalk'
 import os from 'os'
 
-const timeCatcher: RequestHandler = (req, res, next) => {
-  if (!(req instanceof Request)) throw new Error('This can only be called inside an Express Request!')
-
+const timeCatcher: RequestHandler = (req, res, next): void => {
   const time = Date.now()
   const init = new Date().toLocaleString()
   const log = console.log
