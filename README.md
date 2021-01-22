@@ -18,7 +18,7 @@ npm i time-catcher
 3. app.use it
 
 ```
-import timeCatcher from 'timeCatcher';
+import timeCatcher from 'time-catcher';
 ...
 
 app.use(timeCatcher);
